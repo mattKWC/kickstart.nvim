@@ -166,6 +166,9 @@ vim.o.scrolloff = 10
 -- See `:help 'confirm'`
 vim.o.confirm = true
 
+vim.opt.number = true -- Show absolute line number on current line
+
+vim.opt.relativenumber = true -- Show relative line numbers on other lines
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
